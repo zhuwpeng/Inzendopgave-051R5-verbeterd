@@ -1,0 +1,156 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	background: #6A93B8;
+}
+
+h1{
+	margin: 0px;
+	padding: 0px;
+	font-size: 45px;
+	text-align: center;
+	border-bottom: solid 1px #333;
+}
+
+header{
+	background: #eeeeee;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6A93B8;
+}
+
+ul ul{
+	float: right;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #0C4373;
+}
+
+#container{
+	width: 960px;
+	padding: 0px;
+	margin: 0px auto;
+	text-align:center;
+	background: white;
+	min-height: 600px;
+	overflow: hidden;
+}
+
+#container p{
+	display: block;
+	text-align: center;
+}
+
+
+#container .loginout p{
+	display: block;
+	text-align: left;
+}
+
+.error{
+	display:block;
+	color:red;
+	margin: 5px 0px;
+}
+
+.score-form,
+.register-form,
+.matchinsert-form,
+.user-form{
+	width: 30%;
+	display:inline-block;
+	text-align:left;
+	margin: 20px 5px;
+	padding: 10px;
+	background: #eee;
+	border: solid 1px #acacac;
+}
+
+caption{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 28px 10px 10px;
+}
+
+table{
+	border-collapse: collapse;
+	padding: 5px;
+	width:75%;
+	vertical-align:top;
+	margin: auto;
+}
+
+td{
+	padding: 5px;
+}
+
+th{
+	background: #6A93B8;
+}
+
+
+table.pouletabel{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+table.pouletabel td{
+	padding: 5px 15px;
+
+}
+
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
+
+select,
+input[type="password"],
+input[type="number"],
+input[type="text"],
+input[type="date"]{
+	display:block;
+	margin: 0 0 10px;
+	width:90%;
+}
+
+input[type="submit"]{
+	display:block;
+	margin: 0 0 10px;
+}
+
+span{
+	display:block;
+	margin: 5px 0px;
+	text-align: center;
+}
+
+img{
+	width: 22px;
+	heigh: 15px;
+}
